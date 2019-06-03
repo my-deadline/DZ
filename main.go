@@ -68,7 +68,7 @@ func draw(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Write(imgBytes)
-}
+} 
 
 func main() {
 	cache = make(map[string][]byte, 0)
